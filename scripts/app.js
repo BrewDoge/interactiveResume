@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', function() {
     // ground.material = groundMaterial;
 
     var ground = new BABYLON.MeshBuilder.CreateGround("ground"); //scene is optional and defaults to the current scene
-    ground.diffuseTexture = new BABYLON.diffuseTexture("earth.jpg")
+    ground.diffuseTexture = new BABYLON.diffuseTexture("../textures/earth.jpg")
 
 
 
